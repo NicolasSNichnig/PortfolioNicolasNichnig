@@ -1,0 +1,39 @@
+import Link from 'next/link';
+
+import LinkedInIcon from "../public/LinkedInIcon.jsx"
+import InstagramIcon from "../public/InstagramIcon.jsx"
+import GitHubIconm from "../public/GitHubIcon.jsx"
+import EmailIcon from "../public/emailIcon.jsx"
+import PhoneIcon from "../public/phoneIcon.jsx"
+
+const SobreMim = () => {
+
+    return(
+    <div className="flex flex-col items-center justify-center animate-fade animate-once animate-ease-out animate-alternate">
+      <div className="flex wrap-normal m-5 p-2 text-left"> 
+        <img className="size-60 self-center mr-5 rounded-2xl" src="/fotoNicolas.jpg"></img>
+        <div className="flex flex-col mt-10">
+            <span className="mb-3 text-4xl" >Quem sou!</span>
+            <span className="">Sou Nicolas Nichnig, Desenvolvedor Junior buscando pela primeira oportunidade no mercado TI. Tenho conhecimento em Tailwind, Next.js, Python, SQL. Estou sempre em constante evolução e com vontade de absorver mais conhecimento</span>
+        </div>        
+      </div>
+
+      <div className="flex mb-5 place-content-around w-full">
+          <a href="https://www.linkedin.com/in/nicolas-nichnig-b51601286/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>
+          </a>
+          <a href="https://www.instagram.com/nicolas_nichnig/" target="_blank" rel="noopener noreferrer">
+            <InstagramIcon size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>
+          </a>
+          <a href="https://github.com/NicolasSNichnig" target="_blank" rel="noopener noreferrer">
+            <GitHubIconm size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>       
+          </a>
+      </div>
+      <Link href="/CURRICULO-2.pdf" download>
+        <button className="text-4xl bg-[#0c1527]/65 mt-5 mb-5 p-2 rounded-[4px] hover:bg-[#006494] transition-colors duration-300 cursor-pointer">Baixar CV</button>
+      </Link>
+    </div>
+    )
+}
+
+export default SobreMim
