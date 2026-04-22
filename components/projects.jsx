@@ -6,7 +6,7 @@ const ProjectsDiv = () =>{
     const [projetos, setProjetos] = useState([
     {
         "name": "Pousada Solaris",
-        "desc": "Usando o framework Next.Js, em conjunto com a Pousada Solaris, construi um site para seus aposentos. Contendo a localização do Google maps, carrousel com os apartamentos e fotos dos Hosts.",
+        "desc": "Usando o framework Next.Js, em conjunto com a Pousada Solaris, construi um site para seus aposentos. Contendo a localização do Google Maps, carrousel com os apartamentos e fotos dos Hosts.",
         "langs": "Next.js, Tailwind, Typescript",
         "link": "https://github.com/NicolasSNichnig/Pousada-Solaris-Site",
         "nomeFoto": "fotoProjetoSolaris.png",
