@@ -18,17 +18,17 @@ const SobreMim = () => {
 
       <div className="flex mb-5 place-content-around w-full">
           <a href="https://www.linkedin.com/in/nicolas-nichnig-b51601286/" target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>
+            <LinkedInIcon size={40} className="text-[#e8f1f2] hover:text-[#006494] hover:scale-105 transition-colors duration-300"/>
           </a>
           <a href="https://www.instagram.com/nicolas_nichnig/" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>
+            <InstagramIcon size={40} className="text-[#e8f1f2] hover:text-[#006494] hover:scale-105 transition-colors duration-300"/>
           </a>
           <a href="https://github.com/NicolasSNichnig" target="_blank" rel="noopener noreferrer">
-            <GitHubIconm size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>       
+            <GitHubIconm size={40} className="text-[#e8f1f2] hover:text-[#006494] hover:scale-105 transition-colors duration-300"/>       
           </a>
       </div>
       <Link href="/CV Nicolas Nichnig.pdf" download>
-        <button className="text-4xl bg-[#0c1527]/65 mt-5 mb-5 p-2 rounded-[4px] hover:bg-[#006494] transition-colors duration-300 cursor-pointer">Baixar CV</button>
+        <button className="text-4xl bg-[#0c1527]/65 mt-5 mb-5 p-2 rounded-[4px] hover:bg-[#006494]  hover:scale-105 transition-colors duration-300 cursor-pointer">Baixar CV</button>
       </Link>
     </div>
     )

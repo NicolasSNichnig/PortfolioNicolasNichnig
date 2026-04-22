@@ -24,10 +24,10 @@ const LinguagensLista = () => {
 
             {isOpen && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-5 w-full rounded-md text-base md:text-[20px] animate-fade-down animate-once animate-ease-out animate-fill-forwards">
-                    <div className="flex flex-col items-center text-center p-3 rounded-[12px] bg-[#0c1527]/40 hover:bg-[#0c1527]/60 transition-colors duration-300">
+                    <div className="flex flex-col items-center text-center p-3 rounded-[12px] bg-[#0c1527]/40 hover:bg-[#0c1527]/60 hover:scale-105 transition-colors duration-300">
                         <span>Inglês - C1</span>
                     </div>
-                    <div className="flex flex-col items-center text-center p-3 rounded-[12px] bg-[#0c1527]/40 hover:bg-[#0c1527]/60 transition-colors duration-300">
+                    <div className="flex flex-col items-center text-center p-3 rounded-[12px] bg-[#0c1527]/40 hover:bg-[#0c1527]/60 hover:scale-105 transition-colors duration-300">
                         <span>Português - Nativo</span>
                     </div>
                 </div>
