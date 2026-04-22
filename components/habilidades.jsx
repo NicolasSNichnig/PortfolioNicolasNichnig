@@ -3,7 +3,7 @@ import LinguagensLista from "./linguagens"
 
 const HabilidadesDiv = () => {
     return(
-        <div className="flex flex-col items-center justify-center pt-0 pb-0 p-20 animate-fade animate-once animate-ease-out animate-alternate">
+        <div className="flex flex-col items-center justify-center p-3 sm:p-5 md:p-6 lg:p-8 animate-fade animate-once animate-ease-out animate-alternate w-full">
             <ListaSkills/>
             <LinguagensLista/>
         </div>

@@ -7,7 +7,7 @@ import SobreMim from "../components/SobreMim.jsx"
 import Experiencias from "../components/experiencias.jsx"
 
 export default function Home() {
-          const [isSobreMim, setSobreMim] = useState(true)
+  const [isSobreMim, setSobreMim] = useState(true)
   const [isHabilidades, setHabilidades] = useState(false)
   const [isProjects, setProjects] = useState(false)
   const [isExperiencia, setExperiencia] = useState(false)
@@ -41,31 +41,39 @@ export default function Home() {
   }
 
   return (
-    <div className="text-[#e8f1f2]  flex flex-1 flex-col items-center justify-center bg-linear-to-br from-[#247ba0] via-[#1b98e0] to-[#006494]">
+    <div className="text-[#e8f1f2] flex flex-1 flex-col items-center justify-center bg-linear-to-br from-[#247ba0] via-[#1b98e0] to-[#006494]">
       <main className="flex flex-1 flex-col min-w-full">
-        <div className="border-b border-[#13293d] shadow-md bg-[#13293d] text-3xl flex sticky top-0 w-full place-content-around pt-2 pb-2 z-10">
-          <button onClick={handleSobreMim} className={`p-2 rounded-[4px] ${isSobreMim ? "bg-[#006494]" : "transition-colors duration-300 cursor-pointer hover:bg-[#006494] bg-[#0c1527]/65"}`}>Sobre mim</button>
-          <button onClick={handleHabilidades} className={`p-2 rounded-[4px] ${isHabilidades ? "bg-[#006494]" : "transition-colors duration-300 cursor-pointer hover:bg-[#006494] bg-[#0c1527]/65"}`}>Habilidades</button>
-          <button onClick={handleProjects} className={`p-2 rounded-[4px] ${isProjects ? "bg-[#006494]" : "transition-colors duration-300 cursor-pointer hover:bg-[#006494] bg-[#0c1527]/65"}`}>Projetos</button>
-          <button onClick={handleExperiencias} className={`p-2 rounded-[4px] ${isExperiencia ? "bg-[#006494]" : "transition-colors duration-300 cursor-pointer hover:bg-[#006494] bg-[#0c1527]/65"}`}>Experiencias</button>
+        <div className="border-b border-[#13293d] shadow-md bg-[#13293d] text-base sm:text-[12px] md:text-2xl lg:text-3xl flex flex-wrap md:flex-nowrap sticky top-0 w-full place-content-around pt-2 pb-2 z-10 gap-2 md:gap-0 px-2 md:px-0">
+          <button onClick={handleSobreMim} className={`p-1 md:p-2 rounded-[4px] flex-1 md:flex-none transition-colors duration-300 cursor-pointer ${isSobreMim ? "bg-[#006494]" : "hover:bg-[#006494] bg-[#0c1527]/65"}`}>Sobre mim</button>
+          <button onClick={handleHabilidades} className={`p-1 md:p-2 rounded-[4px] flex-1 md:flex-none transition-colors duration-300 cursor-pointer ${isHabilidades ? "bg-[#006494]" : "hover:bg-[#006494] bg-[#0c1527]/65"}`}>Habilidades</button>
+          <button onClick={handleProjects} className={`p-1 md:p-2 rounded-[4px] flex-1 md:flex-none transition-colors duration-300 cursor-pointer ${isProjects ? "bg-[#006494]" : "hover:bg-[#006494] bg-[#0c1527]/65"}`}>Projetos</button>
+          <button onClick={handleExperiencias} className={`p-1 md:p-2 rounded-[4px] flex-1 md:flex-none transition-colors duration-300 cursor-pointer ${isExperiencia ? "bg-[#006494]" : "hover:bg-[#006494] bg-[#0c1527]/65"}`}>Experiencias</button>
         </div>
 
-        <div className="m-5 flex flex-col place-self-center items-center justify-center w-7/12 bg-[#13293d] rounded-[2%] shadow-2xl shadow-black">     
-        {isSobreMim && (
-          <SobreMim/>
-        )}
+        <div className="m-3 md:m-5 flex flex-col place-self-center items-center justify-center w-11/12 md:w-10/12 lg:w-8/12 xl:w-7/12 bg-[#13293d] rounded-[2%] shadow-2xl shadow-black">     
+          {isSobreMim && (
+            <div className="w-full">
+              <SobreMim/>
+            </div>
+          )}
 
-        {isHabilidades && (
-          <HabilidadesDiv/>
-        )}
+          {isHabilidades && (
+            <div className="w-full">
+              <HabilidadesDiv/>
+            </div>
+          )}
 
-        {isProjects && (
-          <ProjectsDiv/>
-        )}
+          {isProjects && (
+            <div className="w-full">
+              <ProjectsDiv/>
+            </div>
+          )}
 
-        {isExperiencia && (
-          <Experiencias/>
-        )}
+          {isExperiencia && (
+            <div className="w-full">
+              <Experiencias/>
+            </div>
+          )}
         </div>
       </main>
     </div>
