@@ -29,7 +29,7 @@ const SobreMim = () => {
             <GitHubIconm size={40} className="text-[#e8f1f2] hover:text-[#006494]"/>       
           </a>
       </div>
-      <Link href="/CURRICULO-2.pdf" download>
+      <Link href="/CV Nicolas Nichnig.pdf" download>
         <button className="text-4xl bg-[#0c1527]/65 mt-5 mb-5 p-2 rounded-[4px] hover:bg-[#006494] transition-colors duration-300 cursor-pointer">Baixar CV</button>
       </Link>
     </div>
