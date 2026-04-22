@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const ListaSkills = () => {
     const [isOpen, setIsOpen] = useState(false)
-
+    
     function handleClick(){
         setIsOpen(!isOpen)
     }
