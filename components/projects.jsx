@@ -58,7 +58,7 @@ const ProjectsDiv = () =>{
                                     <p className="text-sm md:text-base mt-1">{project.langs}</p>
                                 </div>
                                 <a className="mt-2 hover:scale-105 w-full sm:w-auto text-center p-2 sm:p-3 px-4 sm:px-6 bg-[#0c1527]/65 hover:bg-[#006494] transition-colors duration-300 rounded-[4px] text-sm sm:text-base self-start" href={project.link} target="_blank" rel="noopener noreferrer">
-                                    Ver no GitHub →
+                                    Ver no GitHub
                                 </a>
                             </div>
                             

@@ -11,8 +11,8 @@ const SobreMim = () => {
       <div className="flex wrap-normal m-5 p-2 text-left flex-col md:flex-row"> 
         <img className="size-60 self-center mr-0 md:mr-5 rounded-2xl mb-5 md:mb-0" src="/fotoNicolas.jpg"></img>
         <div className="flex flex-col mt-0 md:mt-10 text-center md:text-left">
-            <span className="mb-3 text-4xl" >Quem sou!</span>
-            <span className="">Sou Nicolas Nichnig, Desenvolvedor Junior buscando pela primeira oportunidade no mercado TI. Tenho conhecimento em Tailwind, Next.js, Python, SQL. Estou sempre em constante evolução e com vontade de absorver mais conhecimento</span>
+            <span className="mb-3 text-4xl" >Nicolas Nichnig</span>
+            <span className="">Sou um Desenvolvedor Junior buscando pela primeira oportunidade no mercado TI. Tenho conhecimento em Tailwind, Next.js, Python, SQL. Estou sempre em constante evolução e com vontade de absorver mais conhecimento</span>
         </div>        
       </div>
 
