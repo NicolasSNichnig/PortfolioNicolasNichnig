@@ -1,5 +1,5 @@
 import ListaSkills from "./tecnologias"
-import LinguagensLista from "./linguagens"
+import LinguagensLista from "./idiomas"
 
 const HabilidadesDiv = () => {
     return(

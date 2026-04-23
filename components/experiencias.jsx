@@ -6,19 +6,19 @@ const Experiencias = () =>{
     const [experiencias, setExperiencias] = useState([
     {
         "name": "Senai",
-        "desc": "De 2021 à 2023 fiz ensino médio integrado com o curso Técnico de ADS no Senai de São José em Santa Catarina.",
+        "desc": "Fiz ensino médio integrado ao Técnico em ADS no Senai de São José (SC) de 2021 a 2023.",
         "tempo": "3 Anos",
         "active": false
     },
     {
         "name": "CWI Crescer",
-        "desc": "No ano de 2025, fiz parte do 26° edição do Programa CWI Crescer, completando o fim da Etapa 1",
+        "desc": "Em 2025, participei da 26ª edição do Programa CWI Crescer e concluí a Etapa 1.",
         "tempo": "3 Meses",
         "active": false
     },
     {
         "name": "Gourmet Express",
-        "desc": "O Trabalho final do Senai foi realizado comigo e mais dois alunos, criamos um app mobile de fila para restaurantes, acompanhado de uma dashboard web para restaurantes manusearem seus pedidos, inventários e expesas.",
+        "desc": "No trabalho final do Senai, foi criado um app mobile de fila para restaurantes e uma dashboard web para gerenciar pedidos, inventários e despesas.",
         "tempo": "2 Anos",
         "active": false
     },

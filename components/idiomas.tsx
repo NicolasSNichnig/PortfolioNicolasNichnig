@@ -13,7 +13,7 @@ const LinguagensLista = () => {
     return(
         <div className="flex flex-col justify-center items-center w-full">
             <button onClick={handleClick} className={isOpen ? "flex justify-between text-xl md:text-3xl w-full text-center mb-5 p-2 rounded-[4px] bg-[#006494] transition-colors duration-300 cursor-pointer" : "flex justify-between text-xl md:text-3xl w-full text-center mb-5 bg-[#0c1527]/65 p-2 rounded-[4px] hover:bg-[#006494] transition-colors duration-300 cursor-pointer"}>
-            <span>Linguas</span>
+            <span>Idiomas</span>
             
             <div className="flex-1"></div>
                 

@@ -6,14 +6,14 @@ const ProjectsDiv = () =>{
     const [projetos, setProjetos] = useState([
     {
         "name": "Pousada Solaris",
-        "desc": "Usando o framework Next.Js, em conjunto com a Pousada Solaris, construi um site para seus aposentos. Contendo a localização do Google Maps, carrousel com os apartamentos e fotos dos Hosts.",
+        "desc": " Next.js para desenvolver um site de uma pousada, incluindo localização via Google Maps, carrossel de apartamentos e fotos dos hosts.",
         "langs": "Next.js, Tailwind, Typescript",
         "link": "https://github.com/NicolasSNichnig/Pousada-Solaris-Site",
         "nomeFoto": "fotoProjetoSolaris.png",
         "active": false
     },    {
         "name": "Gourmet Express",
-        "desc": "Em conjunto com mais dois colegas, produzimos no Senai um app mobile e site que permitia aos usuários a possibilidade de pedir lanches a uma distancia considerável, e então recebe-los nos restaurantes. E aos restaurantes, uma dashboard com diversas funcionalidades, como; Manutenção, edição e observação de dados de um restaurante.",
+        "desc": "Desenvolvi um app mobile e um site para pedidos de lanches à distância com retirada no restaurante. Para os estabelecimentos, criei uma dashboard com manutenção, edição e visualização de dados.",
         "langs": "React, React Native, php, SQL, Typescript",
         "link": "https://github.com/SmartCodeGenius",
         "nomeFoto": "GourmetExpress.png",
