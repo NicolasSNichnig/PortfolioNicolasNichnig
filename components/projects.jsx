@@ -11,7 +11,15 @@ const ProjectsDiv = () =>{
         "link": "https://github.com/NicolasSNichnig/Pousada-Solaris-Site",
         "nomeFoto": "fotoProjetoSolaris.png",
         "active": false
-    },    {
+    },{
+        "name": "Chatbot IA",
+        "desc": "Chatbot de IA customizável com qualquer modelo, mantém suas conversas, e permite apagar e criar novas a qualquer momento.",
+        "langs": "Python",
+        "link": "https://github.com/NicolasSNichnig/AI-Chatbot",
+        "nomeFoto": "aiChatBotImage.jpg",
+        "active": false
+    },    
+    {
         "name": "Gourmet Express",
         "desc": "Desenvolvi um app mobile e um site para pedidos de lanches à distância com retirada no restaurante. Para os estabelecimentos, criei uma dashboard com manutenção, edição e visualização de dados.",
         "langs": "React, React Native, php, SQL, Typescript",
